@@ -27,8 +27,10 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         ChatRoomClient.cpp \
-    TextMessage.cpp
+    TextMessage.cpp \
+    TextMsgAssembler.cpp
 
 HEADERS += \
         ChatRoomClient.h \
-    TextMessage.h
+    TextMessage.h \
+    TextMsgAssembler.h

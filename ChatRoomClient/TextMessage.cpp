@@ -13,7 +13,7 @@ TextMessage::TextMessage(const QString& type, const QString& data, QObject* pare
     m_type.resize(4, ' ');
 
     // 考虑中文
-    m_data = data.left(0xFF/4);
+    m_data = data.left(0xFFFF/4);
 }
 
 QString TextMessage::type() const
